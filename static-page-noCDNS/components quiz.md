@@ -5,9 +5,7 @@ Create a page of your own using a custom Page component
 ```js
 import React from "react";
 import ReactDOM from "react";
-
 const root = ReactDOM.createRoot(document.getElementById("rootr"));
-
 function PageToRender() {
   return (
     <>
@@ -28,6 +26,5 @@ function PageToRender() {
     </>
   );
 }
-
 root.render();
 ```
