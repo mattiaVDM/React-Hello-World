@@ -1,0 +1,37 @@
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #050a30;
+}
+.nav-items > li {
+  padding: 10px;
+  color: white;
+}
+.nav-logo {
+  width: 80px;
+}
+.nav-title {
+  color: lightskyblue;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Montserrat";
+}
+
+.body-background {
+  background-color: #2a547e;
+}
+.page-title {
+  font-family: "Montserrat";
+  color: white;
+}
+ul > li {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
